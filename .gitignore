@@ -1,0 +1,26 @@
+# Node.jsの依存関係
+node_modules/
+
+# 環境変数ファイル
+.env
+
+# ログファイル
+logs
+*.log
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# ビルドアーティファクト
+dist/
+build/
+
+# テスト結果
+coverage/
+
+# IDEやエディタの設定ファイル
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

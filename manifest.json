@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "ynu-auto-certification",
+    "version": "1.0",
+    "description": "This extension make ynu certification automatic by using Node.js.",
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
